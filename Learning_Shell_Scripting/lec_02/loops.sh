@@ -9,10 +9,10 @@ done
 
 echo "Running while loop"
 
-num=0   # ✅ No spaces around =
-while [[ $num -le 5 ]]   # ✅ Space after while and before ]]
+num=0   
+while [[ $num -le 5 ]]   
 do 
     echo "$num th loop is running"
-    ((num++))   # ✅ Proper increment
+    ((num++))   
 done
 
