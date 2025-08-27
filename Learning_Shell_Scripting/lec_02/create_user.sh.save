@@ -1,0 +1,5 @@
+read -p "Enter your name: " username
+
+echo "Welcom $username"
+
+sudo useradd -m $username
